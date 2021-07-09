@@ -5,6 +5,7 @@ bluebank
 backend: ejecutar archivo BluebankApplication.java, para testing unitario ejecutar el archivo AccountControllerTest.java de la carpeta test.
 Log: bluebank.log
 frontend: en la carpeta de frontend ejecutar ng serve
+docker: docker build -t name . ; docker run -p 80:8080 name
 ```
 # Planteamiento y tecnologìas:
 La idea era crear un modelo de base de datos con la cual se crea un ùnico nùmero de cuenta con una persona y un valor inicial. Dado esto, se crea una ùnica entidad denominada account que referìa a las cuentas creadas. Se crea una API Rest con Spring Boot y Hibernate. En el frontend se utilizò angular para forntend y HttpClient para interacciòn al backend. Se sube el backend a una instancia EC2 de linux en AWS mediante Docker. La base de datos fue elaborada en postgreSQL y desplegada en Heroku.
