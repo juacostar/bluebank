@@ -7,10 +7,10 @@
         </div>
         <div class="form-group">
             <label for="account">Valor inicial de la cuenta:</label>
-            <input id="account" type="text" placeholder="Ingrese el valor" #account> 
+            <input id="account" type="text" placeholder="Ingrese el valor" #value> 
         </div>
         <div class="form-group">
-            <button type="submit" class="btn-success">Crear cuenta</button>
+            <button type="button" class="btn-success" (click)="createAccount(name.value, value.value)">Crear cuenta</button>
         </div>
         
     </form>
@@ -24,10 +24,10 @@
         </div>
         <div class="form-group">
             <label for="value">Valor a consignar:</label>
-            <input id="value" type="text" placeholder="Ingrese el valor" #value> 
+            <input id="value" type="text" placeholder="Ingrese el valor" #value2> 
         </div>
         <div class="form-group">
-            <button type="submit" class="btn-primary">Consignar cuenta</button>
+            <button type="button" class="btn-primary" (click) = "consign(account2.value, value2.value)">Consignar cuenta</button>
         </div>
     </form>
 </div>
@@ -40,10 +40,10 @@
         </div>
         <div class="form-group">
             <label for="value">Valor a retirar:</label>
-            <input id="value" type="text" placeholder="Ingrese el valor" #value> 
+            <input id="value" type="text" placeholder="Ingrese el valor" #value3> 
         </div>
         <div class="form-group">
-            <button type="submit" class="btn-danger">Retirar dinero</button>
+            <button type="button" class="btn-danger" (click) = "retire(account3.value, value3.value)">Retirar dinero</button>
         </div>
     </form>
 </div>
@@ -55,7 +55,7 @@
             <input id="number" type="text" placeholder="Ingrese el número" #account4> 
         </div>
         <div class="form-group">
-            <button type="submit" class="btn-primary">Consultar</button>
+            <button type="button" class="btn-primary" (click)="getAccount(account4.value)">Consultar</button>
         </div>
     </form>
 </div>
