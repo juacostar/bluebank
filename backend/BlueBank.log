@@ -235,3 +235,49 @@
 2021-07-08 08:21:39.940  INFO 3040 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2021-07-08 08:21:39.942  INFO 3040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2021-07-08 08:21:39.953  INFO 3040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-08 16:22:12.876  INFO 5588 --- [Test worker] c.e.bluebank.AccountControllerTest       : Starting AccountControllerTest using Java 14.0.2 on DESKTOP-OF13E4V with PID 5588 (started by USUARIO in C:\proyectos\bluebank\bluebank\backend)
+2021-07-08 16:22:12.882  INFO 5588 --- [Test worker] c.e.bluebank.AccountControllerTest       : No active profile set, falling back to default profiles: default
+2021-07-08 16:22:14.114  INFO 5588 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-08 16:22:14.118  INFO 5588 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-07-08 16:22:14.168  INFO 5588 --- [Test worker] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.bluebank.repositories.AccountRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-07-08 16:22:14.170  INFO 5588 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 0 JDBC repository interfaces.
+2021-07-08 16:22:14.187  INFO 5588 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-08 16:22:14.189  INFO 5588 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-08 16:22:14.241  INFO 5588 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2021-07-08 16:22:15.842  INFO 5588 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-08 16:22:17.463  INFO 5588 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-08 16:22:20.310  INFO 5588 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-08 16:22:21.433  WARN 5588 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-08 16:22:23.258  INFO 5588 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-07-08 16:22:23.259  INFO 5588 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-07-08 16:22:23.261  INFO 5588 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-07-08 16:22:23.292  INFO 5588 --- [Test worker] c.e.bluebank.AccountControllerTest       : Started AccountControllerTest in 10.991 seconds (JVM running for 13.108)
+2021-07-08 16:22:25.391  INFO 5588 --- [Test worker] c.e.b.controllers.AccountController      : Retiro elaborado
+2021-07-08 16:22:26.148  INFO 5588 --- [Test worker] c.e.b.controllers.AccountController      : Cuenta creada
+2021-07-08 16:22:28.518  INFO 5588 --- [Test worker] c.e.b.controllers.AccountController      : Consignación elaborada
+2021-07-08 16:22:28.875  INFO 5588 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-08 16:22:28.878  INFO 5588 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-08 16:22:29.979  INFO 5588 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-08 16:22:44.502  INFO 11000 --- [restartedMain] c.example.bluebank.BluebankApplication   : Starting BluebankApplication using Java 14.0.2 on DESKTOP-OF13E4V with PID 11000 (C:\proyectos\bluebank\bluebank\backend\build\classes\java\main started by USUARIO in C:\proyectos\bluebank\bluebank\backend)
+2021-07-08 16:22:44.510  INFO 11000 --- [restartedMain] c.example.bluebank.BluebankApplication   : No active profile set, falling back to default profiles: default
+2021-07-08 16:22:44.623  INFO 11000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-08 16:22:44.623  INFO 11000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-08 16:22:45.711  INFO 11000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-08 16:22:45.712  INFO 11000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-07-08 16:22:45.749  INFO 11000 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.bluebank.repositories.AccountRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-07-08 16:22:45.751  INFO 11000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
+2021-07-08 16:22:45.763  INFO 11000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-08 16:22:45.763  INFO 11000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-08 16:22:45.801  INFO 11000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2021-07-08 16:22:46.539  INFO 11000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-08 16:22:46.550  INFO 11000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-08 16:22:46.551  INFO 11000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-08 16:22:46.679  INFO 11000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-08 16:22:46.680  INFO 11000 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2055 ms
+2021-07-08 16:22:47.323  INFO 11000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-08 16:22:48.788  INFO 11000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-08 16:22:51.125  INFO 11000 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-08 16:22:51.560  WARN 11000 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-08 16:22:52.065  INFO 11000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-07-08 16:22:52.116  INFO 11000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-08 16:22:52.133  INFO 11000 --- [restartedMain] c.example.bluebank.BluebankApplication   : Started BluebankApplication in 8.221 seconds (JVM running for 9.103)
